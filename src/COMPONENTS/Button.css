@@ -1,0 +1,10 @@
+.btn {
+  color: white;
+  font-size: 14.4px;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  border-style: none;
+  border-radius: 30px;
+  cursor: pointer;
+}

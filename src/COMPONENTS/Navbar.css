@@ -1,0 +1,147 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f5f2f6;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 20px 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+.logo img {
+  width: 200px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links .link {
+  text-decoration: none;
+  font-size: 14.4px;
+  font-weight: 600;
+  color: #000;
+  transition: color 0.3s ease;
+}
+
+.nav-links .link:hover {
+  color: #8567dc;
+}
+
+.nav-links .premium {
+  color: #8567dc;
+}
+
+.nav-links .pro {
+  color: #dd953e;
+}
+
+.login-btn {
+  background-color: #8567dc;
+  padding: 12px 16px;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #000;
+}
+
+.nav-toggle {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  nav {
+    flex-direction: column;
+    align-items: normal;
+    padding: 0 12px 12px;
+  }
+
+  .logo-toggle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 16px;
+  }
+
+  .nav-toggle {
+    display: flex;
+    padding: 4px 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #d7cdcd;
+  }
+
+  .nav-toggle-icon {
+    font-size: 24px;
+    color: #3c3c3c;
+  }
+
+  .nav-right {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .login-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1028px) {
+  nav {
+    flex-direction: column;
+    align-items: normal;
+    padding: 0 37px 12px;
+  }
+
+  .logo-toggle-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0 16px;
+  }
+
+  .nav-toggle {
+    display: flex;
+    padding: 4px 12px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: #d7cdcd;
+  }
+
+  .nav-toggle-icon {
+    font-size: 24px;
+    color: #3c3c3c;
+  }
+
+  .nav-right {
+    display: block;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .login-btn {
+    width: 100%;
+    margin-top: 10px;
+  }
+}
